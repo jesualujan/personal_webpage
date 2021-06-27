@@ -1,3 +1,38 @@
-body{
-    background-color: brown;
+*{
+    margin:0;
+    padding: 0;
 }
+
+:root {
+    --header-height: 3rem;
+  
+    /*================== COLORS  ==================   */
+     --principal-color: 225;
+
+    --first-color: hsl(var(--principal-color), 58%, 50%)  ;
+    --first-color-second:  hsl(var(--principal-color), 58%, 50%)   ;
+    --first-color-alt:  hsl(var(--principal-color), 52%, 51%)   ;
+    --first-color-lighter:   hsl(var(--principal-color), 92%, 85%)  ;
+    --title-color: hsl(var(--principal-color), 8%, 15%);
+    --text-color: hsl(var(--principal-color), 8%, 45%); ; 
+    --text-color-light: hsl(var(--principal-color), 8%, 65%);;
+    --input-color: hsl(var(--principal-color), 70%, 96%); ;
+    --body-color: hsl(var(--principal-color), 60%, 99%); ;
+    --containter-color: #ffffffff ;
+
+        
+    /*================== FONTS AND TYPOGRAPHY ==================   */
+    
+    --body-font: 'Open Sans', sans-serif;
+
+    /* .5rem = 8px , 1rem = 16px , 1.5rem = 24px */
+    --big-font-size: 2rem ;
+    --h1-font-size:1.5rem ;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+}
+
