@@ -1,7 +1,6 @@
 MATERIALES:
 Icons: https://iconscout.com/unicons
 Fonts: https://fonts.google.com/
-GitHub: https://github.com/bedimcode
 Swiper: https://swiperjs.com/
 
 ⚙️ Other Utilities
